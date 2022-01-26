@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,23 +9,16 @@
   </head>
   <body>
     <div class="status-bar">
-      <!-- 상태바는 하나만 존재 -> id 사용-->
-      <!-- 상태바에는 3개의 열이 존재! -->
-      <!-- 언더바를 이용해 어디 위치하는지 표시 -->
-      <div class="status-bar_column">
+      <div class="status-bar__column">
         <span>No Service</span>
-        <!-- To do: Wifi Icon -->
         <i class="fas fa-wifi"></i>
-        <!-- i는 icon의 줄임말이다. -->
       </div>
-      <div class="status-bar_column">
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="status-bar_column">
+      <div class="status-bar__column">
         <span>110%</span>
-        <!-- To do: Battery Icon -->
-        <i class="fas fa-battery-full"></i>
-        <!-- To do: Lightning Icon-->
+        <i class="fas fa-battery-full fa-2x"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
