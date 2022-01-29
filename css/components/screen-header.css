@@ -13,6 +13,21 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons > span {
   margin-left: var(--horizontal-space);
+}
+
+.screen-header__icons > span:last-child {
+  position: relative;
+}
+
+.screen-header__circle {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: -5px;
 }
