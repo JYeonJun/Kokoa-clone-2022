@@ -57,3 +57,24 @@
 .chats-user-component {
   margin-bottom: 25px;
 }
+
+.user-component__subtitle-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.user-component__subtitle-icon .user-component__subtitle {
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+.user-component__subtitle-icon i {
+  color: tomato;
+  border: 1px solid tomato;
+  width: 13px;
+  height: 13px;
+  font-size: 8px;
+  border-radius: 50%;
+  text-align: center;
+}
