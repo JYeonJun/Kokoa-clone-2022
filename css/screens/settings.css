@@ -1,11 +1,12 @@
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   color: var(--gray);
   transition: color 0.3s ease-in-out;
+  justify-content: space-between;
 }
 
 .settings__setting:hover {
@@ -17,4 +18,13 @@
   margin-right: 20px;
   font-size: 22px;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.settings__last-setting {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.main-screen .settings-list:last-child .settings__setting:first-child {
+  padding-top: 50px;
 }
